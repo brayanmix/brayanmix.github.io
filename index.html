@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Números</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilo.css">
+       <script src="Java/bignumber.js/bignumber.min.js"></script>
+       <script src="Java/numeral.js/numeral.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Números</h1>
+    </header>
+    <form id="forma" action="javascript:procesa()">
+        <p>
+            <label accesskey="N">
+                Operador 1<br>
+                <input id="ent1" name="numero1" type="number" step="any" class="numero" maxlength="15" size="13"/>
+            </label>
+        </p>
+        <p>
+            <label accesskey="N">
+                Operador 2<br>
+                <input id="ent2" name="numero2" type="number" step="any" class="numero" maxlength="15" size="13"/>
+            </label>
+            
+        </p>
+        <br><output id="salida1"></output>
+        <br><output id="salida2"></output>
+        <br><output id="salida3"></output>
+        <br><output id="salida4"></output>
+        <br><output id="salida4"></output>
+        <p>
+            <input type="submit" value="Procesar" accesskey="P"/>
+            <input type="button" value="Limpiar" onclick="Borrar()"/>
+        </p>
+    </form>
+    <footer>
+        Copyright 2021
+    </footer>
+        <script src="Java/Procedimiento.js"></script>
+    </body>
+</html>
